@@ -1,10 +1,13 @@
+import './MenuBar.css';
+import Logo from "@/assets/logo.svg?react";
+
 
 const MenuBarSection = () => {
-    // const { handleDownload } = useDownloadCV();
     return (
         <section className='menu-bar'>
             <div className="menu-wrapper">
                 <div className="left-menu-bar">
+                    <Logo/>
                 </div>
                 <div className="middle-menu-bar">
                     {/* <p>About</p>
@@ -12,6 +15,7 @@ const MenuBarSection = () => {
                     <p>Contact</p> */}
                 </div>
                 <div className="right-menu-bar">
+                    <p>Hello</p>
 
                 </div>
             </div>

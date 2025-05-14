@@ -1,5 +1,7 @@
 import './MenuBar.css';
-import Logo from "@/assets/logo.svg?react";
+import Logo from "@/assets/logo_bar.svg?react";
+import Github_Logo from "@/assets/github-mark-white.svg?react";
+import LinkedIn_Logo from "@/assets/LinkedIn_icon.svg?react";
 
 
 const MenuBarSection = () => {
@@ -10,13 +12,15 @@ const MenuBarSection = () => {
                     <Logo/>
                 </div>
                 <div className="middle-menu-bar">
-                    {/* <p>About</p>
-                    <p>Projects</p>
-                    <p>Contact</p> */}
                 </div>
                 <div className="right-menu-bar">
-                    <p>Hello</p>
-
+                    <a href="https://github.com/MKaiserW" target="_blank" rel="noopener noreferrer">
+                        <Github_Logo/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maximilian-wilhelm-6211661b4/" target="_blank" rel="noopener noreferrer">
+                        <LinkedIn_Logo/>
+                    </a>
+                    
                 </div>
             </div>
         </section>

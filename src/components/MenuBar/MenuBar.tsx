@@ -20,7 +20,6 @@ const MenuBarSection = () => {
                     <a href="https://www.linkedin.com/in/maximilian-wilhelm-6211661b4/" target="_blank" rel="noopener noreferrer">
                         <LinkedIn_Logo/>
                     </a>
-                    
                 </div>
             </div>
         </section>

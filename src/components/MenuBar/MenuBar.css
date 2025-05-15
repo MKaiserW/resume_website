@@ -53,21 +53,10 @@
     line-height: 0;
 }
 
-/* 
-.right-menu-bar svg {
-    height: 4vh;
-    width: 4vh;
-}
-
-.right-menu-bar a {
-    margin-left: 1rem;
-    transition: opacity 0.3s ease;
-}
-
 .right-menu-bar a:first-child {
-    margin-left: 0;
+    margin-right: 1rem;
 }
 
 .right-menu-bar a:hover {
-    opacity: 0.7;
-} */
+    transform: scale(1.1);
+}

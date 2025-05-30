@@ -9,7 +9,7 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = ({
     backgroundImage = 'src/assets/20250505_201913.jpg',
-    title = 'From Circuit to Web Design',
+    title = 'From Circuits to Web Design',
 }) => {
     return (
         <section className="hero" style={{ backgroundImage: `url(${backgroundImage})` }}>

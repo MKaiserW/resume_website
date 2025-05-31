@@ -51,6 +51,7 @@ const SkillsSection = () => {
 
     return (
         <div className="skills-container">
+            <h3 className="skills-section-header">Qualifications</h3>
             <div className="skills-grid">
                 {columns.map((column, columnIndex) => (
                     <div key={columnIndex} className="skills-column">

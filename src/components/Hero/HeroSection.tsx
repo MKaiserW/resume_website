@@ -1,20 +1,11 @@
 import React from 'react';
 import './HeroSection.css';
 
-interface HeroSectionProps {
-    backgroundImage?: string;
-    title?: string;
-    subtitle?: string;
-}
-
-const HeroSection: React.FC<HeroSectionProps> = ({
-    backgroundImage = 'src/assets/20250505_201913.jpg',
-    title = 'From Circuits to Web Design',
-}) => {
+const HeroSection = () => {
     return (
-        <section className="hero" style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <section className="hero">
             <div className="hero-content">
-                <h1>{title}</h1>
+                <h1>Maximilian Wilhelm</h1>
             </div>
         </section>
     );

@@ -51,10 +51,12 @@
 
 .right-menu-bar a{
     line-height: 0;
+    margin-right: 1rem;
+
 }
 
-.right-menu-bar a:first-child {
-    margin-right: 1rem;
+.right-menu-bar a:last-child {
+    margin-right: 0;
 }
 
 .right-menu-bar a:hover {

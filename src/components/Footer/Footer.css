@@ -1,4 +1,5 @@
 .footer-bottom{
+    align-content: center;
     border-top: 1px solid #cbcbcbcb;
     border-bottom: 1px solid #cbcbcbcb;
     text-align: center;
@@ -12,10 +13,19 @@
 
 }
 
-.footer-text{
+.footer-text,
+.footer-text-link {
+    align-content: center;
     font-size: 1rem;
 }
 
-.footer-img{
+.footer-text-link{
+    cursor: pointer;
+    margin: 1rem 11rem;
+}
+
+.footer-img {
     padding-right: 1rem;
+    width: 35px;
+    aspect-ratio: 1;
 }

@@ -34,14 +34,14 @@
     color: #cbcbcb;
     font-size: 3rem;
     border-bottom: 2px solid #cbcbcb;
-
+    margin: 1rem 0;
 }
 
 .column-title {
     text-align: center;
     color: #cbcbcb;
     font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: .5rem 0;
     padding-bottom: 0.75rem;
     font-weight: 600;
 }

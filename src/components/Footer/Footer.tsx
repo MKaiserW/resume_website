@@ -1,6 +1,8 @@
 import "./Footer.css"
 import Github_Logo from "@/assets/github-mark-white.svg"
 import LinkedIn_Logo from "@/assets/LinkedIn_icon.svg"
+import Resume_Icon from "@/assets/res_download.svg"
+import { DownloadResume } from "../MenuBar/MenuBar"
 
 export default function Footer() {
     const getCurrentYear = () => {
@@ -23,6 +25,18 @@ export default function Footer() {
                 <h3 className="footer-text">Maximilian Wilhelm @{getCurrentYear()}</h3>
 
                 <div style={{ alignContent: "center" }}>
+                    <a
+                        onClick={DownloadResume}
+                        className="footer-links"
+                    >
+                        <img
+                            className="footer-img"
+                            src={Resume_Icon}
+                            width="35"
+                            height="35"
+                            alt="Download Resume"
+                        />
+                    </a>
                     <a
                         href="https://github.com/MKaiserW"
                         target="_blank"
@@ -60,13 +74,13 @@ export default function Footer() {
                     </h3>
                     <h3
                         className="footer-text-link"
-                        onClick={() => scrollToSection("Skills")}
+                        onClick={() => scrollToSection("About")}
                     >
                         About Me
                     </h3>
                     <h3
                         className="footer-text-link"
-                        onClick={() => scrollToSection("Skills")}
+                        onClick={() => scrollToSection("Contact")}
                     >
                         Contact Me
                     </h3>

@@ -4,16 +4,16 @@ import Github_Logo from "@/assets/github-mark-white.svg"
 import LinkedIn_Logo from "@/assets/LinkedIn_icon.svg"
 import Resume_Icon from "@/assets/res_download.svg"
 
-const MenuBarSection = () => {
-    const DownloadResume = () => {
-        const link = document.createElement("a")
-        link.href = "@/assets/Resume_2025.pdf"
-        link.download = "Maximilian_Wilhelm_Resume.pdf"
-        document.body.appendChild(link)
-        link.click()
-        document.body.removeChild(link)
-    }
+const DownloadResume = () => {
+    const link = document.createElement("a")
+    link.href = "@/assets/Resume_2025.pdf"
+    link.download = "Maximilian_Wilhelm_Resume.pdf"
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+}
 
+const MenuBarSection = () => {
     return (
         <section className="menu-bar">
             <div className="menu-wrapper">
@@ -64,4 +64,6 @@ const MenuBarSection = () => {
         </section>
     )
 }
+
+export { DownloadResume }
 export default MenuBarSection

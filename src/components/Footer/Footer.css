@@ -13,6 +13,10 @@
 
 }
 
+.footer-links{
+    cursor: pointer;
+}
+
 .footer-text,
 .footer-text-link {
     align-content: center;

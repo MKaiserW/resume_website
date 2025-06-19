@@ -27,7 +27,7 @@ export default function Footer() {
                 <div style={{ alignContent: "center" }}>
                     <a
                         onClick={DownloadResume}
-                        className="footer-links"
+                        className="footer-text-link"
                     >
                         <img
                             className="footer-img"
@@ -59,7 +59,7 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <div>
+                <div className="footer-links-container">
                     <h3
                         className="footer-text-link"
                         onClick={() => scrollToSection("top")}

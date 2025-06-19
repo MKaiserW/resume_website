@@ -63,8 +63,6 @@ const SkillsSection = () => {
                                         src={skill.icon}
                                         alt={`${skill.name} icon`}
                                         className="skill-icon"
-                                        width="50"
-                                        height="50"
                                     />
                                     <span className="skill-name">{skill.name}</span>
                                 </div>

@@ -1,6 +1,7 @@
 .menu-bar {
     backdrop-filter: blur(10px);
     background-color: #05050561;
+    outline: 1px solid #ffffff1c;
     z-index: 9999;
     display: flex;
     position: fixed;
@@ -9,9 +10,8 @@
     left: 50%;
     height: 8vh;
     top: 1rem;
-    width: 90%;
+    width: min(90%, calc(100vw - 2rem));
     border-radius: 10px;
-    outline: 1px solid #ffffff1c;
 }
 
 .menu-wrapper {
@@ -51,7 +51,6 @@
 .right-menu-bar a{
     line-height: 0;
     margin-right: 1rem;
-
 }
 
 .right-menu-bar a:last-child {

@@ -11,7 +11,7 @@ function Home() {
             <MenuBar />
             <HeroSection />
             <Skills />
-            <AboutMe />
+            {/* <AboutMe /> */}
             <ContactMe />
         </>
     );

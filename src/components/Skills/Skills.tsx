@@ -1,4 +1,3 @@
-import React from 'react';
 import './Skills.css';
 import bashIcon from '@assets/bash_icon.svg';
 import flaskIcon from '@assets/flask_icon.svg';

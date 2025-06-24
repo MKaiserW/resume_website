@@ -9,12 +9,14 @@ export default function Footer() {
         return new Date().getFullYear()
     }
 
-    const scrollToSection = (sectionId:string) => {
+    const scrollToSection = (sectionId: string) => {
         const element = document.getElementById(sectionId)
         if (element) {
-            element.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
+            const elementPosition = element.offsetTop
+            const offsetPosition = elementPosition - ((8 / 100) * window.innerHeight)
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
             })
         }
     }

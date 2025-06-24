@@ -55,7 +55,6 @@ const SkillsSection = () => {
                 {columns.map((column, columnIndex) => (
                     <div key={columnIndex} className="skills-column">
                         <h3 className="column-title">{column.title}</h3>
-
                         <div className="skills-icon-grid">
                             {column.skills.map((skill, skillIndex) => (
                                 <div key={skillIndex} className="skill-item">

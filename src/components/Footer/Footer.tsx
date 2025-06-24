@@ -22,7 +22,7 @@ export default function Footer() {
     return (
         <section className="footer-main">
             <div className="footer-bottom">
-                <h3 className="footer-text">Maximilian Wilhelm @{getCurrentYear()}</h3>
+                <h3 className="footer-text">Maximilian Wilhelm v1@{getCurrentYear()}</h3>
 
                 <div style={{ alignContent: "center" }}>
                     <a

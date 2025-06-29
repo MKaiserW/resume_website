@@ -24,7 +24,7 @@ export default function Footer() {
     return (
         <section className="footer-main">
             <div className="footer-bottom">
-                <h3 className="footer-text">Maximilian Wilhelm v1@{getCurrentYear()}</h3>
+                <h3 className="footer-text">Maximilian Wilhelm @{getCurrentYear()}</h3>
 
                 <div style={{ alignContent: "center" }}>
                     <a
@@ -62,30 +62,30 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-links-container">
-                    <h3
+                    <h1
                         className="footer-text-link"
                         onClick={() => scrollToSection("top")}
                     >
                         Hero Section
-                    </h3>
-                    <h3
+                    </h1>
+                    <h1
                         className="footer-text-link"
                         onClick={() => scrollToSection("Skills")}
                     >
                         Qualifications
-                    </h3>
-                    <h3
+                    </h1>
+                    <h1
                         className="footer-text-link"
                         onClick={() => scrollToSection("About")}
                     >
                         About Me
-                    </h3>
-                    <h3
+                    </h1>
+                    <h1
                         className="footer-text-link"
                         onClick={() => scrollToSection("Contact")}
                     >
                         Contact Me
-                    </h3>
+                    </h1>
                 </div>
             </div>
         </section>

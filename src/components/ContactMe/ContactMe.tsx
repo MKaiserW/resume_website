@@ -22,7 +22,7 @@ export default function ContactMe() {
 
     return (
         <section id='Contact'>
-            <h3 className="section-header">Reach Out</h3>
+            <h1 className="section-header">Reach Out</h1>
             <div className="contact-container">
 
                 {/* <p className="contact-description">

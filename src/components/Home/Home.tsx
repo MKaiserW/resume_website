@@ -1,7 +1,7 @@
 import HeroSection from '../Hero/HeroSection';
 import MenuBar from '../MenuBar/MenuBar';
 import Skills from "../Skills/Skills"
-// import AboutMe from "../AboutMe/AboutMe"
+import AboutMe from "../AboutMe/AboutMe"
 import ContactMe from "../ContactMe/ContactMe"
 
 
@@ -11,7 +11,7 @@ function Home() {
             <MenuBar />
             <HeroSection />
             <Skills />
-            {/* <AboutMe /> */}
+            <AboutMe />
             <ContactMe />
         </>
     );

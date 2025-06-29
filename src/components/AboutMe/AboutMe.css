@@ -1,0 +1,16 @@
+.education-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem 2rem;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.uconn-img{
+    padding-right: 1rem;
+    width: 350px;
+    aspect-ratio: 1232/1476;
+}

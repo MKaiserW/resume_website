@@ -6,23 +6,38 @@ export default function AboutMe() {
     return (
         <section id='About'>
             <h1 className="section-header">About</h1>
-            <div className="education-grid">
-                <div>
-                     <img
-                            className="uconn-img"
-                            src={scrumIcon}
-                            alt="Download Resume"
-                        />
+            <div className="about-container">
+                <div className="about-profile-card">
+                    <img
+                        src={scrumIcon}
+                        alt="University of Connecticut Logo"
+                        className="about-university-logo"
+                    />
+                    <h2>University of Connecticut</h2>
                 </div>
-                <div style={{textAlign: 'right'}}>
-                    <h2 className="sectio-header">Education</h2>
-                    <p>Bachelor of Science in Computer Science</p>
-                    <p>Concentrations in Software Engineering and Systems and Networks</p>
-                    <p>Minor in Mathematics </p>
-                    <p>GPA 3.8 </p>
+
+                <div>
+                    <h2 className="about-education-section">Education</h2>
+                    <div className="about-education-grid">
+                        <div className="about-education-item">
+                            <h3>Degree</h3>
+                            <p>Bachelor of Science in Computer Science</p>
+                        </div>
+                        <div className="about-education-item">
+                            <h3>Concentrations</h3>
+                            <p>Software Engineering<br />Systems and Networks</p>
+                        </div>
+                        <div className="about-education-item">
+                            <h3>Minor</h3>
+                            <p>Mathematics</p>
+                        </div>
+                        <div className="about-education-item">
+                            <h3>GPA</h3>
+                            <p>3.8</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </section>
     )
 }

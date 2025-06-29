@@ -12,9 +12,15 @@
 
 .skills-column {
     background-color: rgba(157, 157, 157, 0.1);
+    border: 1px solid #555555;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
+}
+
+.skills-column:hover {
+    border-color: #888888;
+    transform: translateY(-2px);
 }
 
 .column-title {

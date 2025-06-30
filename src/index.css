@@ -18,7 +18,7 @@
   color: #cbcbcb;
   font-size: 3rem;
   border-bottom: 2px solid #cbcbcb;
-  margin: 1rem 0;
+  margin: 1rem 0 2rem 0;
   font-weight: 700;
 }
 
@@ -27,6 +27,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }

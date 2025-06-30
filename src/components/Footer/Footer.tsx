@@ -78,7 +78,7 @@ export default function Footer() {
                         className="footer-text-link"
                         onClick={() => scrollToSection("About")}
                     >
-                        About Me
+                        Experience
                     </h1>
                     <h1
                         className="footer-text-link"

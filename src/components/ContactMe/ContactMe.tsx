@@ -8,8 +8,9 @@ export default function ContactMe() {
         email: '',
         message: ''
     });
+    const [showModal, setShowModal] = useState(false);
 
-    const handleChange = (e:any) => {
+    const handleChange = (e: any) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value
@@ -18,6 +19,12 @@ export default function ContactMe() {
 
     const handleSubmit = () => {
         console.log('Form submitted:', formData);
+        setShowModal(true);
+
+    };
+
+    const closeModal = () => {
+        setShowModal(false);
     };
 
     return (
@@ -59,15 +66,35 @@ export default function ContactMe() {
 
                     <button onClick={handleSubmit} className="submit-button">
                         <img
-                                src={Send_Icon}
-                                width="20"
-                                height="20"
-                            />
+                            src={Send_Icon}
+                            width="20"
+                            height="20"
+                        />
                         Send
                     </button>
                 </div>
             </div>
 
+            {showModal && (
+                <div className="modal-overlay" onClick={closeModal}>
+                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                        <div className="modal-header">
+                            <h2>Message Error</h2>
+                            <button className="modal-close" onClick={closeModal}>
+                                ×
+                            </button>
+                        </div>
+                        <div className="modal-body">
+                            <p>Im sorry, I currently don't have a backend server to handle your request. Please use your preferred email software to reach out.</p>
+                        </div>
+                        <div className="modal-footer">
+                            <button className="modal-button" onClick={closeModal}>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </section>
     )
 }

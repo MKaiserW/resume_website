@@ -81,6 +81,10 @@
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
+.about-education-item ul {
+    padding-left: 20px; /* Adjust this value */
+  }
+
 .about-education-item:hover {
     border-color: #888888;
     transform: translateY(-2px);
@@ -94,11 +98,14 @@
     font-weight: 600;
 }
 
+.about-education-item ul,
 .about-education-item p {
     color: #cbcbcb;
     font-size: 0.95rem;
     margin: 0;
+    line-height: 1.6;
 }
+
 
 /* Mobile */
 @media (max-width: 768px) {

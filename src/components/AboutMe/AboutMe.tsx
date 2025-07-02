@@ -1,6 +1,7 @@
 import './AboutMe.css'
 import UconnLogo from '@assets/f82608aa0419f9c94f688ae2c578fb07.png';
 import PrattLogo from '@assets/pngaaa.com-5399938.png';
+import ComputerLogo from '@assets/computer_projections.jpg';
 
 export default function AboutMe() {
 
@@ -74,6 +75,37 @@ export default function AboutMe() {
                     />
                     <h2 className='pratt-name'>Pratt and Whitney</h2>
                     <h4 className='pratt-name-sub'>An RTX Business</h4>
+                </div>
+            </div>
+            <div className="about-container">
+                <div className="about-profile-card">
+                    <img
+                        src={ComputerLogo}
+                        alt="Computer Projections"
+                        className="about-logo-computer"
+                    />
+                    <h2>Computer Projections</h2>
+                </div>
+                <div>
+                    <h2 className="about-education-section">Intern</h2>
+                    <div className="about-education-grid">
+                        <div className="about-education-item">
+                            <h3>Office 365 Migration</h3>
+                            <p>Migrated staff of German school</p>
+                        </div>
+                        <div className="about-education-item">
+                            <h3>UI Design of Website</h3>
+                            <p>Local law office website required a modern website</p>
+                        </div>
+                        <div className="about-education-item">
+                            <h3>Data Center Maintenance</h3>
+                            <p>Replaced hardware of critical infrastructure</p>
+                        </div>
+                        <div className="about-education-item">
+                            <h3>Led Seminars</h3>
+                            <p>Cybersecurity Awareness Sessions<br/>Digital Productivity Training</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

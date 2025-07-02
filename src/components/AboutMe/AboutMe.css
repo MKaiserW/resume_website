@@ -26,7 +26,11 @@
 .about-logo-university {
     width: 250px;
     aspect-ratio: 1232/1466;
-    border-radius: 12px;
+}
+
+.about-logo-computer{
+    width: 350px;
+    aspect-ratio: 903/328;
 }
 
 .about-logo-pratt{
@@ -49,6 +53,7 @@
     color: #ffffff;
 }
 
+.about-education-section-pratt,
 .about-education-section {
     color: #ffffff;
     margin-bottom: 2rem;
@@ -110,7 +115,7 @@
         grid-template-columns: 1fr;
     }
 
-    .about-university-logo {
+    .about-logo {
         width: 100px;
         height: 100px;
     }

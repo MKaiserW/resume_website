@@ -30,6 +30,7 @@
 
 .about-logo-computer{
     width: 350px;
+    margin: 1rem;
     aspect-ratio: 903/328;
 }
 
@@ -56,12 +57,16 @@
 .about-education-section-pratt,
 .about-education-section {
     color: #ffffff;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
     font-size: 2rem;
     font-weight: 600;
 }
 .about-education-section-pratt{
     text-align: right;
+}
+
+.about-logo-description{
+    margin: 0 0 1rem 0
 }
 
 .about-education-grid {
@@ -113,18 +118,19 @@
         padding: 2rem 1rem;
     }
 
-    .about-container {
+    .about-logo-pratt,
+    .about-logo-computer{
+        width: 250px;
+    }
+
+    .about-container,
+    .about-container-flip {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
     .about-education-grid {
         grid-template-columns: 1fr;
-    }
-
-    .about-logo {
-        width: 100px;
-        height: 100px;
     }
 
     .about-profile-card h1 {

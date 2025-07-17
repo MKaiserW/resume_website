@@ -14,7 +14,7 @@ export default function AboutMe() {
                         alt="University of Connecticut Logo"
                         className="about-logo-university"
                     />
-                    <h2>University of Connecticut</h2>
+                    <h2 className="about-logo-description">University of Connecticut</h2>
                 </div>
                 <div>
                     <h2 className="about-education-section">Education</h2>
@@ -105,7 +105,7 @@ export default function AboutMe() {
                         alt="Computer Projections"
                         className="about-logo-computer"
                     />
-                    <h2>Computer Projections</h2>
+                    <h2 className="about-logo-description">Computer Projections</h2>
                 </div>
                 <div>
                     <h2 className="about-education-section">Intern</h2>
